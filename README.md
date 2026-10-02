@@ -1,5 +1,12 @@
 # IBOVESPA – Machine Learning Prediction
 
+> ### Em resumo
+> **Problema:** prever se o IBOVESPA vai subir ou cair no pregão seguinte, usando apenas o histórico do próprio índice.  
+> **Solução:** engenharia de atributos com indicadores técnicos, modelo Random Forest e ajuste do ponto de corte, respeitando a ordem temporal dos dados.  
+> **Ferramentas:** Python, pandas, NumPy, scikit-learn.  
+> **Resultado:** 76,7% de acurácia em dados fora da amostra, acima da meta de 75%.  
+> **Como isso ajuda um cliente:** mostra como construir e validar um modelo preditivo sem "trapacear" com dados do futuro, base para qualquer previsão de série temporal.  
+
 Projeto de Machine Learning desenvolvido para prever a tendência diária do IBOVESPA (alta ou baixa no dia seguinte), utilizando exclusivamente dados históricos do próprio índice.
 
 ---
